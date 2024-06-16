@@ -1,0 +1,18 @@
+name = "images"
+
+[env]
+  [env.postgres_dsn]
+    value = "postgres://images:password@localhost:5432/images"
+  [env.s3_endpoint]
+    value = "fra1.digitaloceanspaces.com"
+  [env.s3_cdn_endpoint]
+    value = "fra1.cdn.digitaloceanspaces.com"
+  [env.s3_bucket]
+    value = "bookers-images"
+  [env.s3_region]
+    value = "Frankfurt — Germany"
+  [env.s3_access_key]
+    value = "access-key"
+  [env.s3_secret_key]
+    value = "secret-key"
+    
